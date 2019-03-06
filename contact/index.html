@@ -102,7 +102,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Welcome!</a>
+            <a class="navbar-brand" href="/">Never Settle!</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -159,23 +159,24 @@
     <!-- Main Content -->
     
 
+<!-- Main Content -->
 
-    <section class="main">
-        <!-- Page Header -->
+<!-- Page Header -->
 <!-- Set your background image for this header in your post front-matter: cover -->
 
 <header class="intro-header" style="background-image: url('/image/contact.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
+                <div class="site-heading">
                     <h1>Contact</h1>
+                    
+                    <h2 class="site-subheading">
+                        Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!
+                    </h2>
                     
                     <span class="meta">
                         <!-- Date and Author -->
-                        
-                        
-                            2019-03-06
                         
                     </span>
                 </div>
@@ -197,8 +198,7 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p></p><p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p><p></p>
-<form name="sentMessage" id="contactForm" novalidate><br>  <div class="control-group"><br>    <div class="form-group floating-label-form-group controls"><br>      <label>Name</label><br>      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."><br>      <p class="help-block text-danger"></p><br>    </div><br>  </div><br>  <div class="control-group"><br>    <div class="form-group floating-label-form-group controls"><br>      <label>Email Address</label><br>      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address."><br>      <p class="help-block text-danger"></p><br>    </div><br>  </div><br>  <div class="control-group"><br>    <div class="form-group floating-label-form-group controls"><br>      <label>Message</label><br>      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea><br>      <p class="help-block text-danger"></p><br>    </div><br>  </div><br>  <br><br>  <div id="success"></div><br>  <div class="form-group"><br>    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button><br>  </div><br></form>
+                <form class="form" id="contactform" action="//formspree.io/email@domain.com" method="POST"><br>    <fieldset class="field"><br>        <input class="input" type="text" name="name" placeholder="Name" required><br>        <label class="label" for="name"><span class="label-content">Your name</span></label><br>    </fieldset><br>    <fieldset class="field"><br>        <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required><br>        <label class="label" for="_replyto"><span class="label-content">Your email</span></label><br>    </fieldset><br>    <fieldset class="field"><br>        <textarea class="input" name="message" rows="1" placeholder="Message" required></textarea><br>        <label class="label" for="message"><span class="label-content">Your message</span></label><br>    </fieldset><br>    <input class="hidden" type="text" name="_gotcha" style="display:none"><br>    <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com"><br>    <fieldset class="field"><br>        <input class="button submit" type="submit" value="Send"><br>    </fieldset><br></form>
 
                 
             </div>
@@ -214,10 +214,6 @@
         </div>
     </div>
 </article>
-    </section>
-
-
-
 
 
 
