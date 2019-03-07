@@ -84,7 +84,7 @@
 
     <!-- favicon -->
     
-    <link rel="icon" href="/Sensibleworld-Starwars-Death-Star.ico"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    <link rel="icon" href="/favicon/Sensibleworld-Starwars-Death-Star.ico"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
     
 
 </head>
@@ -174,10 +174,6 @@
                 <div class="site-heading">
                     <h1>Contact</h1>
                     
-                    <h2 class="site-subheading">
-                        Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!
-                    </h2>
-                    
                     <span class="meta">
                         <!-- Date and Author -->
                         
@@ -201,47 +197,37 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <form class="form" id="contactform" action="//formspree.io/szwellmai@gmail.com" method="POST">
-    <fieldset class="field">
-        <input class="input" type="text" name="name" placeholder="Name" required>
-        <label class="label" for="name"><span class="label-content">Your name</span></label>
-    </fieldset>
-    <fieldset class="field">
-        <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required>
-        <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
-    </fieldset>
-    <fieldset class="field">
-        <textarea class="input" name="message" rows="1" placeholder="Message" required></textarea>
-        <label class="label" for="message"><span class="label-content">Your message</span></label>
-    </fieldset>
-    <input class="hidden" type="text" name="_gotcha" style="display:none">
-    <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
-    <fieldset class="field">
-        <input class="button submit" type="submit" value="Send">
-    </fieldset>
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+
+<form action="https://formspree.io/szwellmai@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+    <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." aria-invalid="false">
+        <p class="help-block text-danger"></p>
+    </div>
+    </div>
+    <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+        <label>Email Address</label>
+        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+        <p class="help-block text-danger"></p>
+    </div>
+    </div>
+    <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+        <label>Message</label>
+        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." aria-invalid="false"></textarea>
+        <p class="help-block text-danger"></p>
+    </div>
+    </div>
+    <br>
+    <div id="success"></div>
+    <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+    </div>
 </form>
 
-
-
-<!-- <form class="form" id="contactform" action="//formspree.io/email@domain.com" method="POST">
-    <fieldset class="field">
-        <input class="input" type="text" name="name" placeholder="Name" required>
-        <label class="label" for="name"><span class="label-content">Your name</span></label>
-    </fieldset>
-    <fieldset class="field">
-        <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required>
-        <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
-    </fieldset>
-    <fieldset class="field">
-        <textarea class="input" name="message" rows="1" placeholder="Message" required></textarea>
-        <label class="label" for="message"><span class="label-content">Your message</span></label>
-    </fieldset>
-    <input class="hidden" type="text" name="_gotcha" style="display:none">
-    <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
-    <fieldset class="field">
-        <input class="button submit" type="submit" value="Send">
-    </fieldset>
-</form> -->
 
                 
             </div>
