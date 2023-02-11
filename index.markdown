@@ -5,6 +5,6 @@
 layout: home
 ---
 
-A blog about Brain-Inspired Computation, Medical Imaging Informatics and more.
+A blog about brain-computer interface and more.
 
 [About me](/about/).
