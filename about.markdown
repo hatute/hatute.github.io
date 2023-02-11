@@ -14,5 +14,5 @@ Feel free to touch with me.
 1. Few-shot Transfer Learning for Hereditary Retinal Diseases Recognition. [\[Paper\]](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_10) [\[Link\]](https://rdcu.be/cRjPD) [\[Code\]](https://github.com/hatute/FSTL4HRDR)
    **_Siwei Mai_**, _Qian Li, Qi Zhao, and Mingchen Gao._  
    **MICCAI'21**, In International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer, 2021.
-   <!-- <span style="color:#008000">(Early Acceptance (13%), Student Travel Award)</span>. -->
-   (Early Acceptance (13%), Student Travel Award)
+   <span style="color:#008000">(Early Acceptance (13%), Student Travel Award)</span>.
+   <!-- (Early Acceptance (13%), Student Travel Award) -->
