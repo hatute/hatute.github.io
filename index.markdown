@@ -5,6 +5,7 @@
 layout: home
 ---
 
-A blog about brain-computer interface and more.
+A blog about brain-computer interface and **more**.
+<img src='source/index/IMG_2156.JPG' align='right' style=' width:200px;height:100 px'/>
 
 [About me](/about/).
