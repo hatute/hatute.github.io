@@ -4,7 +4,9 @@ title: Siwei Mai
 permalink: /about/
 ---
 
-I am a third-year Computer Science Ph.D. student at Rutgers University–New Brunswick, supervised by Prof. [Konstantinos Michmizos](http://combra.cs.rutgers.edu/). My main research interests are Brain-inspired Computation & Medical Imaging Informatics. I have experience on few-shot learning problems in the medical field. And these days, I am working on real-time Electroencephalogram(EEG) data analysis and spiking neural networks(SNN).
+I am a doctoral student in Computer Science entering my third year at Rutgers University–New Brunswick, under the guidance of Professor [Konstantinos Michmizos](http://combra.cs.rutgers.edu/). My primary areas of research focus include Brain-inspired Computation and Medical Imaging Informatics. I have expertise in addressing few-shot learning challenges within the medical domain. Presently, my efforts are dedicated to the real-time analysis of Electroencephalogram (EEG) data and the exploration of spiking neural networks.
+
+<!-- I am a third-year Computer Science Ph.D. student at Rutgers University–New Brunswick, supervised by Prof. [Konstantinos Michmizos](http://combra.cs.rutgers.edu/). My main research interests are Brain-inspired Computation & Medical Imaging Informatics. I have experience on few-shot learning problems in the medical field. And these days, I am working on real-time Electroencephalogram(EEG) data analysis and spiking neural networks(SNN). -->
 
 Feel free to touch with me.  
 `$ echo c2l3ZWkubWFpQHJ1dGdlcnMuZWR1Cg== | base64 --decode`
