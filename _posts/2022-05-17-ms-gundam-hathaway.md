@@ -13,9 +13,9 @@ categories: "more"
 
 ## 0x00
 
-本文由[锋锋](https://pan.wf/)送的 HHKB 完成，高低得给好兄弟整个独家冠名嗷！新冠赶紧好起来ヾ(\*´▽‘\*)ﾉ
+本文由[锋锋](https://pwfee.com/)送的 HHKB 完成，高低得给好兄弟整个独家冠名嗷！新冠赶紧好起来ヾ(\*´▽‘\*)ﾉ
 
-This article was completed by the HHKB, a gift from one of my best friends [Wenfeng](https://pan.wf/). I hope he will recover from COVID soon!
+This article was completed by the HHKB, a gift from one of my best friends [Wenfeng](https://pwfee.com/). I hope he will recover from COVID soon!
 
 ## 0x01
 
