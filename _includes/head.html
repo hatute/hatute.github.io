@@ -7,4 +7,22 @@
   <link rel="shortcut icon" href="/favicon.ico" />
   {%- feed_meta -%} {%- if jekyll.environment == 'production' and
   site.google_analytics -%} {%- include google-analytics.html -%} {%- endif -%}
+
+  <!-- Umami Tracking Code -->
+  {%- if jekyll.environment == 'production' and site.umami_tracking_code -%}
+  {%- include umami.html -%}
+  <!-- <script
+    async
+    defer
+    src="http://3.222.26.40:3000/script.js"
+    data-website-id="48c178ac-69ff-4dc8-b859-da0419248681"
+  ></script> -->
+  <!-- <script
+    defer
+    src="http://3.222.26.40:3000/script.js"
+    data-website-id="48c178ac-69ff-4dc8-b859-da0419248681"
+  ></script> -->
+  {%- endif -%}
+  <!-- End Umami Tracking Code -->
+  
 </head>
