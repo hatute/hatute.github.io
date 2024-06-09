@@ -5,7 +5,7 @@ date: 2022-05-17 21:49 -0400
 categories: "more"
 ---
 
-![Hathaway Intro](/source/hathaway/hathway.jpeg) <font size=2>©Pablo Uchida</font>
+![Hathaway Intro](/source/hathaway/hathway.jpeg) <font size=2>Pablo Uchida ©</font>
 
 <div style="text-align: right">「身構えてる時には、死神は来ないものだ、ハサウェイ」</div>
 <div style="text-align: right"> —— シャア・アズナブル </div>
