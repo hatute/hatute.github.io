@@ -22,9 +22,9 @@ layout: home
 </style>
 
 <figure>
-  <img src="source/index/IMG_2156.JPG"/>
+  <img src="source/index/IMG_2156_signed.JPG"/>
   <!-- <figcaption>May the Rainbow be with you!</figcaption> -->
-  <figcaption>S. Mai ©</figcaption>
+  <figcaption>© S. Mai</figcaption>
 </figure>
 <!-- <style>
   figure {
