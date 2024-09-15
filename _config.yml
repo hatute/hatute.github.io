@@ -65,6 +65,6 @@ umami_tracking_code: "48c178ac-69ff-4dc8-b859-da0419248681"
 copyright: Copyright © hatute
 
 collections:
-  tags:
+  taglist:
     output: true
     permalink: tags/:path/
