@@ -1,6 +1,6 @@
 ---
 layout: page
-title: S. Mai
+title: About
 permalink: /about/
 ---
 
