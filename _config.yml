@@ -21,7 +21,7 @@
 title: Hello world?
 # email: siwei.mai@rutgers.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  "Neurons that fire together, wire together." 
+  "Neurons that fire together, wire together."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hatute.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ""
@@ -60,7 +60,6 @@ umami_tracking_code: "48c178ac-69ff-4dc8-b859-da0419248681"
 #     shortname: hatute-github-io
 
 # url: "https://hatute.github.io"
-
 
 copyright: Copyright © hatute
 
