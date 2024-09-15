@@ -2,8 +2,7 @@
 layout: post
 title: Patronymic and Data Structure
 date: 2022-06-07 20:19 -0400
-# categories: "more"
-tags: more
+tags: ["more"]
 published: False
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: "Mobile Suit Gundam: Hathaway"
 date: 2022-05-17 21:49 -0400
-# categories: "more"
-tags: more
+tags: ["more"]
 ---
 
 ![Hathaway Intro](/source/hathaway/hathway.jpeg) <font size=2>Pablo Uchida ©</font>
