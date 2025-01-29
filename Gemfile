@@ -41,3 +41,5 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 
 # gem 'github-pages'
 gem 'rubocop', require: false
+
+gem 'google-protobuf', '~> 3.24.0'
