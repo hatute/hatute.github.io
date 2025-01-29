@@ -15,13 +15,17 @@ Feel free to touch with me.
 
 ## Publications
 
-1. Few-shot Transfer Learning for Hereditary Retinal Diseases Recognition  
-   **_Siwei Mai_**, _Qian Li, Qi Zhao, and Mingchen Gao._  
-   **MICCAI'21**, In International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer, 2021.
+1. **Few-shot Transfer Learning for Hereditary Retinal Diseases Recognition**  
+   _Siwei Mai , Qian Li, Qi Zhao, and Mingchen Gao._  
+   **MICCAI**, In International Conference on Medical Image Computing and Computer-Assisted Intervention, Springer, 2021.
    <span style="color:#008000">(Early Acceptance (13%), Student Travel Award)</span>.  
    [\[Paper\]](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_10) [\[Code\]](https://github.com/hatute/FSTL4HRDR) [\[Intro\]](https://rdcu.be/cRjPD)
 
-2. EEGSN: Towards Efficient Low-latency Decoding of EEG with Graph Spiking Neural Networks  
-   _Xi chen,_ **_Siwei Mai_**_, and Konstantinos Michmizos._  
-   **NICE'23(Poster)**, Neuro Inspired Computational Elements Conference, 2023.  
+2. **EEGSN: Towards Efficient Low-latency Decoding of EEG with Graph Spiking Neural Networks**  
+   _Xi chen, Siwei Mai, and Konstantinos Michmizos._  
+   NICE(Poster), Neuro Inspired Computational Elements Conference, 2023.  
    [\[Paper\]](https://arxiv.org/abs/2304.07655)
+
+3. **Uncovering Spatiotemporal Differences in Cortical Activity Corresponding to Two Tasks Using Data-Driven ADASSO Algorithm**  
+   _Siwei Mai, Ali E. Haddad, Laleh Najafizadeh._  
+   ISBI, IEEE International Symposium on Biomedical Imaging, 2025.  
