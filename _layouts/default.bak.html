@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script defer src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=5"
     />
-    <link rel="icon" href="{{ '/assets/img/millennium-falcon-svgrepo-com.ico' | relative_url }}" />
+    <link rel="icon" href="{{ '/assets/img/eve.ico' | relative_url }}" />
     <title>{{ page.title }} | {{ site.title }}</title>
-    <!-- <link
+    <link
       rel="stylesheet"
-      href="{{ '/assets/css/styles.bak.css' | relative_url }}"
-    /> -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+      href="{{ '/assets/css/styles.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/syntax.css' | relative_url }}"
+    />
+    <script defer src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="{{ '/feed.xml' | relative_url }}"
+      title="{{ site.title }}"
+    />
   </head>
   <body>
     <div class="sticky">
       <nav>
         <a href="/">~</a> /
-        
-        {% if page.url != "/" %}
-            {% if page.collection == "posts" %}
-                <!-- Custom breadcrumb for posts -->
-                <a href="/posts/">Posts</a> /
-                {{ page.title | capitalize }}
-            {% else %}
-                <!-- Use the page title for standalone pages -->
-                {{ page.title | capitalize }}
-            {% endif %}
-        {% endif %}
         <button id="theme-toggle" style="float: right" type="button">
           <span class="d-block-light d-none"
             ><img
@@ -51,7 +49,8 @@
 
     <footer>
       <span class="pull-left"
-        >Credit: (<a href="https://evesdropper.dev/">Evelyn Koo</a>)</span
+        >Made with Jekyll (<a href="/acknowledgements/">acknowledgements</a>,
+        <a href="/testimonials/">testimonials</a>).</span
       >
       <span
         class="pull-right"
@@ -67,6 +66,7 @@
           class="icon"
           src="{{ '/assets/img/rss.png' | relative_url }}"
           alt="rss"
+          title="Not a contact method, but the RSS feed for this website."
       /></a>
     </footer>
   </body>

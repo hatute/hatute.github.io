@@ -1,0 +1,13 @@
+.d-none {
+  display: none;
+}
+
+[data-theme="light"] .d-block-light,
+[data-theme="dark"] .d-block-dark {
+  display: block !important;
+}
+
+[data-theme="light"] .d-in-light,
+[data-theme="dark"] .d-in-dark {
+  display: inline !important;
+}

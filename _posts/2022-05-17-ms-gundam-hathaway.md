@@ -5,7 +5,7 @@ date: 2022-05-17 21:49 -0400
 tags: ["more"]
 ---
 
-![Hathaway Intro](/source/hathaway/hathway.jpeg) <font size=2>Pablo Uchida ©</font>
+![Hathaway Intro](/assets/img/hathaway/hathway.jpeg) <font size=2>Pablo Uchida ©</font>
 
 <div style="text-align: right">「身構えてる時には、死神は来ないものだ、ハサウェイ」</div>
 <div style="text-align: right"> —— シャア・アズナブル </div>
@@ -23,9 +23,13 @@ This article was completed by the HHKB, a gift from one of my best friends [Wenf
 
 系列的缔造者，富野由悠季老爷子的初心就是想通过战争来表达和平的可贵。想到过去几个月发生的俄乌战争。实验室里俄罗斯师兄的话深深的触动了我，“We don't usually say 'I'm a Russaian or Ukrainian'. They are all my people!"。我不想表达对国与国之间政治的看法，但唯一能确定的是战争是不好，是残酷的。这也是我深刻从这部作品中能体会到的。祝世界和平！
 
-The first time I watched the Gundam series was the "W" series, more or less when I was in first grade. It's been a long time since I've seen a Gundam anime movie that got the blood pumping and made me think. "Hathaway's Flash" is a retrospective of the 40th anniversary of the Gundam series. In terms of painting, soundtrack and characterization, this one is undoubtedly a masterpiece of all the generations.
+<!-- The first time I watched the Gundam series was the "W" series, more or less when I was in first grade. It's been a long time since I've seen a Gundam anime movie that got the blood pumping and made me think. "Hathaway's Flash" is a retrospective of the 40th anniversary of the Gundam series. In terms of painting, soundtrack and characterization, this one is undoubtedly a masterpiece of all the generations.
 
-The creator of the series, [Yuyuki Tomino](https://en.wikipedia.org/wiki/Yoshiyuki_Tomino)'s original intention was to express the preciousness of peace through war. Thinking about the Russian-Ukrainian war that happened in the past few months. I was deeply touched by the words of my Russian fellow in the lab, "We don't usually say 'I'm a Russaian or Ukrainian'. They are all my people!". I do not want to express my opinion about the politics between countries, but the only thing I can say for sure is that war is bad and cruel. This is what I can deeply appreciate from this movie. Peace!
+The creator of the series, [Yuyuki Tomino](https://en.wikipedia.org/wiki/Yoshiyuki_Tomino)'s original intention was to express the preciousness of peace through war. Thinking about the Russian-Ukrainian war that happened in the past few months. I was deeply touched by the words of my Russian fellow in the lab, "We don't usually say 'I'm a Russaian or Ukrainian'. They are all my people!". I do not want to express my opinion about the politics between countries, but the only thing I can say for sure is that war is bad and cruel. This is what I can deeply appreciate from this movie. Peace! -->
+
+The first time I watched a Gundam series was the “W” series—around first grade in elementary school, lol. I haven’t seen a Gundam work in a long time that gets my blood pumping and makes me think. This work, "Gundam Hathaway: Hathaway's Flash", is a retrospective piece celebrating the anniversary of the Gundam series, and in every aspect—animation, music, and character development—it stands out among all the works in the series.
+
+The creator of the series, Mr. [Yuyuki Tomino](https://en.wikipedia.org/wiki/Yoshiyuki_Tomino), originally wanted to express the preciousness of peace through war. Thinking about the Russian-Ukrainian war that has taken place over the past few months, I was deeply moved by the words of a Russian senior in our lab: “We don’t usually say ‘I’m a Russian or Ukrainian’. They are all my people!” I don’t intend to express any political opinions regarding the relations between nations, but one thing is for sure: war is terrible and cruel. This is what I deeply took away from this work. Wishing for world peace!
 
 <!-- 很久没有看到让人血脉喷张又让人有所思考的高达作品了。第一次看高达系列的作品是“W”，差不多是小学一年级的时候了，还记得那时候是在一家便利店的书架上看到的，应该是去顺路买棒冰时候看到的 23333。在书架上看的是漫画，就得一边舔棒冰一边自己脑补满屏的激光和爆炸，对那时的我来说可太很酷炫，不知道比奥特曼要高到哪里去了。
 

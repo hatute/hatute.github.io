@@ -1,0 +1,36 @@
+/* Default light theme */
+:root {
+  --background-color: #fff;
+  --text-color: #444;
+  --hl-color: #ccc;
+  --border-color: #eaeaea;
+  --link-color: #2a7ae2;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222;
+    --text-color: #fff;
+    --link-color: #828fff;
+    --hl-color: #333;
+    --border-color: #454545;
+  }
+}
+
+/* Override with user's stored preference */
+html[data-theme="dark"] {
+  --background-color: #222;
+  --text-color: #fff;
+  --link-color: #828fff;
+  --hl-color: #333;
+  --border-color: #454545;
+}
+
+html[data-theme="light"] {
+  --background-color: #fff;
+  --text-color: #444;
+  --hl-color: #ccc;
+  --border-color: #eaeaea;
+  --link-color: #2a7ae2;
+}

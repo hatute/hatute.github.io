@@ -1,0 +1,74 @@
+.sticky {
+  background-color: var(--background-color);
+  padding: 7.5px 0 7.5px 0;
+  position: sticky;
+  top: 0;
+}
+
+.center {
+  margin: auto;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centext {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+  margin-right: auto;
+}
+
+.pull-right {
+  float: right;
+  margin-left: auto;
+}
+
+/* flex harder bestie */
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.columns {
+  flex: 1;
+  padding: 10px;
+}
+
+div.columns:nth-of-type(even) {
+  flex: 3;
+  text-align: left;
+}
+
+/* grid */
+.home-grid {
+  display: grid;
+  grid-template-areas: "image desc desc";
+}
+
+.grid-img {
+  grid-area: image;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.grid-img img {
+  width: 275px;
+}
+
+.grid-desc {
+  grid-area: desc;
+  display: flex;           /* Add this */
+  flex-direction: column;  /* Add this */
+  justify-content: center; /* Add this */
+  margin: auto 0;    
+}
+
+.grid-link {
+  grid-area: links;
+}

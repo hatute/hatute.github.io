@@ -18,20 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# title: Hello world?
-# email: siwei.mai@rutgers.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  "Neurons that fire together, wire together."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hatute.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: ""
-github_username: "hatute"
-
+title: S. Mai
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username: jekyll
+# permalink: none
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
-  # - jekyll-seo-tag
+sass:
+  sass_dir: _sass
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -51,19 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-umami_tracking_code: "48c178ac-69ff-4dc8-b859-da0419248681"
-# Disqus Comments
-# disqus:
-#     # Leave shortname blank to disable comments site-wide.
-#     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-#     shortname: hatute-github-io
-
-# url: "https://hatute.github.io"
-
-copyright: Copyright © hatute
-
-collections:
-  taglist:
-    output: true
-    permalink: tags/:path/
