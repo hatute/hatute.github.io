@@ -48,7 +48,9 @@ div.columns:nth-of-type(even) {
 /* grid */
 .home-grid {
   display: grid;
-  grid-template-areas: "image desc desc";
+  // grid-template-areas: "image desc desc";
+  grid-template-areas: "image desc";
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid-img {
@@ -74,24 +76,20 @@ div.columns:nth-of-type(even) {
 }
 
 
-/* Add media query for mobile devices */
 @media (max-width: 768px) {
-  // .home-grid {
-  //   grid-template-areas: "image" "desc";
-  //   grid-template-columns: 1fr;
-  // }
-
-  .grid-img {
-    margin-top: 0;
-    text-align: center;
+  .home-grid {
+    grid-template-areas: "image desc";
+    grid-template-columns: 1fr 1fr; /* Split into two equal columns */
+    gap: 20px;
+    padding: 0 20px;
   }
 
   .grid-img img {
-    width: 170px; /* Adjust as needed */
+    width: 100%;
+    max-width: none; /* Remove max-width restriction */
   }
 
   .grid-desc {
-    // text-align: center;
-    margin: 20px 0;
+    text-align: left; /* Align text to the left */
   }
 }
