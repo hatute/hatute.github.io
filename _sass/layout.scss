@@ -72,3 +72,26 @@ div.columns:nth-of-type(even) {
 .grid-link {
   grid-area: links;
 }
+
+
+/* Add media query for mobile devices */
+@media (max-width: 768px) {
+  // .home-grid {
+  //   grid-template-areas: "image" "desc";
+  //   grid-template-columns: 1fr;
+  // }
+
+  .grid-img {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .grid-img img {
+    width: 170px; /* Adjust as needed */
+  }
+
+  .grid-desc {
+    // text-align: center;
+    margin: 20px 0;
+  }
+}

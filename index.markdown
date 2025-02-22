@@ -12,7 +12,6 @@ title: Home
     <div class="grid-desc">
     <h3>Hello!</h3>
         below average PhD student @ Rutgers ECE
-        <!-- I'll leave that question up to you. -->
         <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/publications">Publications</a></li>
