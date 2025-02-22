@@ -10,6 +10,13 @@ body {
   transition: background-color 0.2s ease;
 }
 
+/* Add padding for mobile browsers */
+@media (max-width: 850px) {
+  body {
+    padding: 0 20px 40px; /* Add more padding on the sides for mobile */
+  }
+}
+
 a,
 a:visited {
   color: var(--link-color);
