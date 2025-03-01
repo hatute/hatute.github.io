@@ -5,7 +5,8 @@ title: Publications
 
 - Uncovering Spatiotemporal Differences in Cortical Activity Corresponding to Two Tasks Using Data-Driven ADASSO Algorithm  
    **Siwei Mai**, Ali E. Haddad, Laleh Najafizadeh.  
-   _ISBI, IEEE International Symposium on Biomedical Imaging, 2025._
+   _ISBI, IEEE International Symposium on Biomedical Imaging, 2025._  
+   [\[Code\]](https://github.com/Integrated-Systems-NeuroImaging-Lab/ISBI2025-ADASSO)
 
 - Automated Classification of Inherited Retinal Diseases in Optical Coherence Tomography Images Using Few-shot Learning  
    Qi Zhao, **Siwei Mai**, Qian Li, Guanchong Huang, Mingchen Gao, Wenli Yang, Ge Wang, Ya Ma, Lei Li, Xiaoyan Peng.  

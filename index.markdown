@@ -19,7 +19,7 @@ title: Home
         </ul>
     </div>
 </div>
-<br><br>
+<br>
 
 ## Update Board
 <details>
