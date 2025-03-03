@@ -47,9 +47,6 @@ a img {
   height: 100%;
   position: relative;
   z-index: 9;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
 .gallery-icon img {
   max-width: 100%;
@@ -86,7 +83,7 @@ a img {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   padding: 0;
-  margin: 0;
+  margin: 0 0 40px; /* change caption place*/
 }
 .gallery-item:hover .gallery-caption h3,
 .gallery-item:hover .gallery-caption p {
@@ -209,25 +206,18 @@ a img {
 .masonry-gallery.gallery {
   z-index: 0;
   width: 100%;
-  margin: 20px auto 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 40px 0 1em 0;
 }
-
 .masonry-gallery .gallery-item {
   margin: 1.5%;
   background: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 31.3%;
 }
-
 .masonry-gallery .gallery-item.col-2 {
   width: 48%;
 }
 .masonry-gallery .gallery-item.col-3 {
-  width: 31.33%;
+  width: 31.3%;
 }
 .masonry-gallery .gallery-item.col-4 {
   width: 23%;
@@ -249,15 +239,11 @@ a img {
 }
 .masonry-gallery .gallery-icon {
   text-align: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .masonry-gallery .gallery-caption .entry-summary {
   text-align: center;
   bottom: 0;
-  padding: 1em;
+  /* padding: 1em; */
   font-size: 0.8em;
   color: #f7f6f5;
 }
@@ -428,26 +414,6 @@ body.gallerythumbsrevealed .position-absolute {
   -webkit-transform: translate3d(0, -64px, 0);
   transform: translate3d(0, -64px, 0);
 }
-
-/* Add body styling to match default */
-/* body {
-  max-width: 850px;
-  margin: 40px auto;
-  padding: 0 10px 40px;
-  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background: var(--background-color, #222);
-  color: var(--text-color, #fff);
-  transition: background-color 0.2s ease;
-} */
-
-/* Add padding for mobile browsers */
-/* @media (max-width: 850px) {
-  body .gallery .masonry-gallery.gallery #content .wrapper {
-    padding: 40px 20px;
-  }
-} */
 
 .horizontal-gallery.gallery {
   height: 50vh;
@@ -634,59 +600,47 @@ img.mfp-img {
   display: none;
 }
 
-/* Center the albums section container */
-#content .wrapper {
-  max-width: 850px;
-  /* margin: 20px auto; */
-  /* padding: 0 10px 40px; */
-  /* padding: 5%; */
-  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/*galleries adapted*/
+.masonry-gallery .gallery-item {
+  width: 30% !important;
 }
 
-/* Responsive gallery layout adjustments */
-@media screen and (max-width: 480px) {
-  .masonry-gallery .gallery-item {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 5% 2.5%; 
+@media screen and (max-height: 480px) {
+  /*header smaller space*/
+  #header {
+    padding-top: 2em;
   }
 
-  .gallery {
-    margin: 30px 1%;
-    padding: 0 2%;
+  /*galleries adapted*/
+  .fullscreen-gallery .gallery-caption .entry-summary {
+    padding-bottom: 2em;
   }
-  body {
-    padding: 0 3% 40px;
+  .masonry-gallery .gallery-item {
+    width: 98% !important;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 850px) {
-  .masonry-gallery .gallery-item {
-    width: 45%;
-    /* padding: auto; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2.5%;
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  /*galleries adapted*/
+  .fullscreen-gallery .gallery-caption .entry-summary {
+    padding-bottom: 5em;
   }
 
-  /* #content .wrapper,
-  body {
-    margin: 30px 1%;
+  .masonry-gallery .gallery-item {
+    width: 98% !important;
+    margin: 3% auto;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 481px) and (orientation: portrait) {
+  /*galleries adapted*/
+  .fullscreen-gallery .gallery-caption .entry-summary {
+    padding-bottom: 5em;
+  }
+  /* .gallery{
+    padding: 0 0px 10px;
   } */
-
-  /* .gallery {
-    margin: 30px 1%;
-  } */
-}
-
-@media screen and (min-width: 851px) {
   .masonry-gallery .gallery-item {
-    width: 31.33% !important;
-    margin: 1%;
+    width: 47% !important;
   }
 }
