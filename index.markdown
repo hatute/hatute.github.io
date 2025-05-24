@@ -16,7 +16,7 @@ title: Home
             <li><a href="/about">About</a></li>
             <li><a href="/publications">Publications</a></li>
             <li><a href="/posts">Posts</a></li>
-            <li><a href="{{ site.baseurl }}/gallery/">Gallery</a></li>
+            <!-- <li><a href="{{ site.baseurl }}/gallery/">Gallery</a></li> -->
         </ul>
     </div>
 </div>
