@@ -29,10 +29,10 @@
         <a href="/">~</a> / {% if page.url != "/" %} {% if page.collection ==
         "posts" %}
         <!-- Custom breadcrumb for posts -->
-        <a href="/posts/">Posts</a> / {{ page.title | capitalize }} 
+        <a href="/posts">Posts</a> / {{ page.title | capitalize }} 
         {% elsif page.layout == "gallery" %}
         <!-- Custom breadcrumb for gallery pages -->
-        <a href="/gallery/">Gallery</a> / {{ page.title | capitalize }}
+        <a href="/gallery">Gallery</a> / {{ page.title | capitalize }}
         {% else %}
         <!-- Use the page title for standalone pages -->
         {{ page.title | capitalize }} {% endif %} {% endif %}
