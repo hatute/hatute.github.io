@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script defer src="https://umami.nullserver.name/script.js" data-website-id="6551f481-5794-480a-b01e-14837c60884d"></script>
+    <script
+      defer
+      src="https://umami.nullserver.name/script.js"
+      data-website-id="6551f481-5794-480a-b01e-14837c60884d"
+    ></script>
     <script defer src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
     <meta charset="utf-8" />
     <meta
@@ -12,7 +16,10 @@
       rel="icon"
       href="{{ '/assets/img/millennium-falcon-svgrepo-com.ico' | relative_url }}"
     />
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>
+      {% if site.title %} {{ page.title }} | {{ site.title }} {% else %} {{
+      page.title }} {% endif %}
+    </title>
     <!-- <link
       rel="stylesheet"
       href="{{ '/assets/css/styles.bak.css' | relative_url }}"
@@ -30,11 +37,11 @@
         <a href="/">~</a> / {% if page.url != "/" %} {% if page.collection ==
         "posts" %}
         <!-- Custom breadcrumb for posts -->
-        <a href="/posts">Posts</a> / {{ page.title | capitalize }} 
-        {% elsif page.layout == "gallery" %}
+        <a href="/posts">Posts</a> / {{ page.title | capitalize }} {% elsif
+        page.layout == "gallery" %}
         <!-- Custom breadcrumb for gallery pages -->
-        <a href="/gallery">Gallery</a> / {{ page.title | capitalize }}
-        {% else %}
+        <a href="/gallery">Gallery</a> / {{ page.title | capitalize }} {% else
+        %}
         <!-- Use the page title for standalone pages -->
         {{ page.title | capitalize }} {% endif %} {% endif %}
         <button id="theme-toggle" style="float: right" type="button">
