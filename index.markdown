@@ -11,9 +11,11 @@ title: Home
     </div>
     <div class="grid-desc">
     <h3>Hello!</h3>
-        I am the pilot of RX-105 Ξ, <br>
-        a Firedrakes warrior in the Chapter "Salamanders", <br> 
-        & a below-average PhD student @ Rutgers ECE.
+        I am the pilot of RX-105 Ξ Gundam, <br>
+        a "Firedrakes" warrior in the Chapter "Salamanders",
+        <!-- a below-average PhD student @ Rutgers ECE.
+         -->
+         <span><b>& a below-average PhD student @ Rutgers ECE.</b></span>
         <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/publications">Publications</a></li>
@@ -24,9 +26,12 @@ title: Home
 </div>
 <br>
 
-## Update Board
-<details>
+## Updates
+
+- [Aug. 2025] New paper accepted at IEEE NER 2025: "Longest Sustained Cortical Activity Duration in Temporal Bisection Task Aligns with Geometric Mean for Log-Spaced Probes".
+
+<!-- <details>
     <summary>Updates</summary><ul>
-        <li>No Update</li>
+        <li>Our paper "</li>
     </ul>
-</details>
+</details> -->
