@@ -35,6 +35,11 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  footnote_nr: 1
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

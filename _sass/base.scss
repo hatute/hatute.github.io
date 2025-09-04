@@ -1,12 +1,12 @@
 body {
   max-width: 900px;
   // margin: 40px auto;
-  margin-top: 20; /* Remove top margin */
+  margin-top: 50px; /* Add top margin to account for fixed header */
   margin-right: auto; /* Keep horizontal centering */
   margin-bottom: 40px; /* Keep bottom margin */
   margin-left: auto;
   // padding: 0 10px 40px;
-  padding-top: 0;
+  padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 40px;
   padding-left: 10px;
@@ -64,4 +64,40 @@ hr {
 
 img {
   max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Scientific content styling */
+// .figure {
+//   text-align: center;
+//   margin: 2em 0;
+// }
+
+// .figure-caption {
+//   font-size: 0.9em;
+//   color: var(--text-color);
+//   opacity: 0.8;
+//   margin-top: 0.5em;
+//   font-style: italic;
+// }
+
+.equation {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+blockquote {
+  border-left: 4px solid var(--link-color);
+  margin: 1em 0;
+  padding-left: 1em;
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.9;
 }

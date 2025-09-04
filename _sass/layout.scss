@@ -1,10 +1,24 @@
 .sticky {
   background-color: var(--background-color);
-  padding: 7.5px 0 7.5px 0;
-  position: sticky;
+  height: 50px;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
   transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.sticky nav {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .center {

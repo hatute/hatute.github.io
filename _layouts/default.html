@@ -7,6 +7,34 @@
       data-website-id="6551f481-5794-480a-b01e-14837c60884d"
     ></script>
     <script defer src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+          displayMath: [
+            ["$$", "$$"],
+            ["\\[", "\\]"],
+          ],
+          processEscapes: true,
+          processEnvironments: true,
+        },
+        options: {
+          skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+        },
+      };
+    </script>
+    <script
+      defer
+      src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+    ></script>
+    <script
+      defer
+      id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -34,17 +62,19 @@
   <body>
     <div class="sticky">
       <nav>
-        <a href="/">~</a> / {% if page.url != "/" %} {% if page.collection ==
-        "posts" %}
-        <!-- Custom breadcrumb for posts -->
-        <a href="/posts">Posts</a> / {{ page.title | capitalize }} {% elsif
-        page.layout == "gallery" %}
-        <!-- Custom breadcrumb for gallery pages -->
-        <a href="/gallery">Gallery</a> / {{ page.title | capitalize }} {% else
-        %}
-        <!-- Use the page title for standalone pages -->
-        {{ page.title | capitalize }} {% endif %} {% endif %}
-        <button id="theme-toggle" style="float: right" type="button">
+        <div class="nav-left">
+          <a href="/">~</a> / {% if page.url != "/" %} {% if page.collection ==
+          "posts" %}
+          <!-- Custom breadcrumb for posts -->
+          <a href="/posts">Posts</a> / {{ page.title | capitalize }} {% elsif
+          page.layout == "gallery" %}
+          <!-- Custom breadcrumb for gallery pages -->
+          <a href="/gallery">Gallery</a> / {{ page.title | capitalize }} {% else
+          %}
+          <!-- Use the page title for standalone pages -->
+          {{ page.title | capitalize }} {% endif %} {% endif %}
+        </div>
+        <button id="theme-toggle" type="button">
           <span class="d-block-light d-none"
             ><img
               class="icon"
@@ -64,23 +94,26 @@
     {{ content }}
 
     <footer>
-      <span class="pull-left"
-        >Credit: (<a href="https://evesdropper.dev/">Evelyn Koo</a>)</span
-      >
-      <span
-        class="pull-right"
-        title="Last Updated {{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}"
-        >{{ site.time | date: '%Y' }} &copy; S. Mai (<a href="/contact"
-          >Contact</a
-        >) &nbsp;</span
-      >
-      &nbsp;
-      <a href="{{ '/feed.xml' | relative_url }}"
-        ><img
-          class="icon"
-          src="{{ '/assets/img/rss.png' | relative_url }}"
-          alt="rss"
-      /></a>
+      <div class="footer-content">
+        <span class="pull-left"
+          >Credit: (<a href="https://evesdropper.dev/">Evelyn Koo</a>)</span
+        >
+        <div class="pull-right">
+          <span
+            title="Last Updated {{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}"
+            >{{ site.time | date: '%Y' }} &copy; S. Mai (<a href="/contact"
+              >Contact</a
+            >)</span
+          >
+          &nbsp;
+          <a href="{{ '/feed.xml' | relative_url }}"
+            ><img
+              class="icon"
+              src="{{ '/assets/img/rss.png' | relative_url }}"
+              alt="rss"
+          /></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
