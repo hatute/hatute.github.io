@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      defer
+      src="https://umami.nullserver.name/script.js"
+      data-website-id="6551f481-5794-480a-b01e-14837c60884d"
+    ></script>
+    <script defer src="/assets/js/darkmode.js"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+          displayMath: [
+            ["$$", "$$"],
+            ["\\[", "\\]"],
+          ],
+          processEscapes: true,
+          processEnvironments: true,
+        },
+        options: {
+          skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+        },
+      };
+    </script>
+    <script
+      defer
+      src="https://polyfill.io/v3/polyfill.min.js?features=es6"
+    ></script>
+    <script
+      defer
+      id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link
+      rel="icon"
+      href="/assets/img/millennium-falcon-svgrepo-com.ico"
+    />
+    <title>
+       Gallery2 
+    </title>
+    <!-- <link
+      rel="stylesheet"
+      href="/assets/css/styles.bak.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+    <link rel="stylesheet" href="/assets/css/galleries.css">
+  </head>
+  <body>
+    <div class="sticky">
+      <nav>
+        <div class="nav-left">
+          <a href="/">~</a> /  
+          <!-- Custom breadcrumb for gallery pages -->
+          <a href="/gallery">Gallery</a> / Gallery2  
+        </div>
+        <button id="theme-toggle" type="button">
+          <span class="d-block-light d-none"
+            ><img
+              class="icon"
+              alt="moon"
+              src="/assets/img/moon.png"
+          /></span>
+          <span class="d-block-dark d-none"
+            ><img
+              class="icon"
+              alt="sun"
+              src="/assets/img/sun.png"
+          /></span>
+        </button>
+      </nav>
+    </div>
+
+    <h1>Gallery2</h1>
+<p></p>
+<html class="no-js" lang="en">
+  <head>
+    <meta content="charset=utf-8">
+    <link rel="stylesheet" href="/assets/css/magnificpopup.css">
+  </head>
+
+  <body>
+    <section id="content" role="main">
+      <div class="wrapper">
+        <!-- Gallery __-->
+        <div class="gallery masonry-gallery">
+          
+
+          <figure class="gallery-item">
+            <header class="gallery-icon">
+              <a
+                href="/gallery/archive/g02/bg1.jpg"
+                class="popup"
+                title="IMAGE TITLE"
+                data-caption="© photorama"
+              >
+                <img
+                  src="/gallery/archive/g02/bg1.jpg"
+              /></a>
+            </header>
+            <figcaption class="gallery-caption">
+              <div class="entry-summary" id="IMAGE TITLE">
+                <h3>IMAGE TITLE</h3>
+                <p>© photorama</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          
+
+          <figure class="gallery-item">
+            <header class="gallery-icon">
+              <a
+                href="/gallery/archive/g02/bg2.jpg"
+                class="popup"
+                title="IMAGE TITLE"
+                data-caption="© photorama"
+              >
+                <img
+                  src="/gallery/archive/g02/bg2.jpg"
+              /></a>
+            </header>
+            <figcaption class="gallery-caption">
+              <div class="entry-summary" id="IMAGE TITLE">
+                <h3>IMAGE TITLE</h3>
+                <p>© photorama</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          
+
+          <figure class="gallery-item">
+            <header class="gallery-icon">
+              <a
+                href="/gallery/archive/g02/bg3.jpg"
+                class="popup"
+                title="IMAGE TITLE"
+                data-caption="© photorama"
+              >
+                <img
+                  src="/gallery/archive/g02/bg3.jpg"
+              /></a>
+            </header>
+            <figcaption class="gallery-caption">
+              <div class="entry-summary" id="IMAGE TITLE">
+                <h3>IMAGE TITLE</h3>
+                <p>© photorama</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          
+        </div>
+      </div>
+      <!-- END .wrapper -->
+    </section>
+
+    <!-- jQuery -->
+
+    <script
+      type="text/javascript"
+      src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+    <!-- include image popups -->
+    <script src="/assets/js/jquery.magnific-popup.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $("a.popup").magnificPopup({
+          type: "image",
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+          },
+          image: {
+            titleSrc: function (item) {
+              return (
+                item.el.attr("title") + "&nbsp;" + item.el.attr("data-caption")
+              );
+            },
+          },
+          // other options
+        });
+      });
+    </script>
+
+    <script src="/assets/js/retina.min.js"></script>
+    <!-- include Masonry -->
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <!-- include mousewheel plugins -->
+    <script src="/assets/js/jquery.mousewheel.min.js"></script>
+    <!-- include carousel plugins -->
+    <script src="/assets/js/jquery.tinycarousel.min.js"></script>
+    <!-- include svg line drawing plugin -->
+    <script src="/assets/js/jquery.lazylinepainter.min.js"></script>
+    <!-- include custom script -->
+    <script src="/assets/js/scripts.js"></script>
+    <!-- Modernizr -->
+    <script src="/assets/js/modernizr.js"></script>
+  </body>
+</html>
+
+
+
+    <footer>
+      <div class="footer-content">
+        <span class="pull-left"
+          >Credit: (<a href="https://evesdropper.dev/">Evelyn Koo</a>)</span
+        >
+        <div class="pull-right">
+          <span
+            title="Last Updated 2025-09-04 22:45:57 +0000"
+            >2025 &copy; S. Mai (<a href="/contact"
+              >Contact</a
+            >)</span
+          >
+          &nbsp;
+          <a href="/feed.xml"
+            ><img
+              class="icon"
+              src="/assets/img/rss.png"
+              alt="rss"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
