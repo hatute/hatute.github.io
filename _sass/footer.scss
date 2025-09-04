@@ -17,4 +17,5 @@ footer {
   box-sizing: border-box; /* Include padding in the width calculation */
   overflow: hidden; /* Prevent content from overflowing */
   white-space: nowrap; /* Prevent text from wrapping */
+  transition: background-color 0.2s ease, border-top-color 0.2s ease;
 }

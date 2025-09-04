@@ -14,4 +14,4 @@ From "Computer Science" to "Electric & Computer Engineering", but still with BCI
 
 ## 0x01
 
-Well, it has been a while since my last post, and as life tends to go, there have been both ups and downs. I started this blog at the end of my second year as a doctoral student. Back then, I was just stepping into the world of neuroscience, armed with curiosity and the fascinating textbook "Principles of Neural Science." My goal was simple: to share my thoughts and notes every few weeks as I navigated this complex, yet captivating field.
+Well, it has been a while since my last post, and as life tends to go, there have been both ups and downs. I started this blog at the end of my second year as a doctoral student. Back then, I was dipping my toes into the world of neuroscience, armed with curiosity and the fascinating textbook "Principles of Neural Science." My goal was simple: to share my thoughts and notes every few weeks as I navigated this complex, yet captivating field.
