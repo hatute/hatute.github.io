@@ -1,19 +1,20 @@
 table {
   border-collapse: collapse;
-  margin: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
-tr {
-  border-bottom: 1px solid #ccc !important;
-}
-
-th {
+thead > tr > th {
+  border-bottom: 1px solid black;
+  padding: 0 8px;
   text-align: left;
 }
 
-th,
 td {
-  padding: 2px 8px;
+  padding: 0 8px;
+  text-align: center;
 }
 
 button {
@@ -36,14 +37,18 @@ details.description:not([open]) summary::after {
 
 /* Code HL */
 .highlight {
-  padding: 5px 10px;
-  margin: 5px 0;
-  border-radius: 2.5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  line-height: 1.3em;
+  margin: 20px 0;
+  padding: 0;
+  border-radius: 0;
 }
 
 .chroma {
   overflow-x: auto;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 /**
@@ -52,19 +57,21 @@ details.description:not([open]) summary::after {
 pre,
 code {
   font-family: monospace;
-  font-size: 14px;
-  border: 1px solid #e8e8e8;
-  border-radius: 1px;
-  background-color: rgba(238, 238, 255, 0.377);
+  font-size: 13px;
+  background-color: #ffffff;
 }
 
 code {
   padding: 1px 5px;
+  border: none;
+  border-radius: 0;
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  border: none;
+  border-radius: 0;
 }
 
 pre > code {

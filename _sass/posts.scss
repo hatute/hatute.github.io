@@ -1,30 +1,107 @@
-.post-list-heading {
-  font-size: 28px;
+/* Blog/Posts page */
+#blog,
+.tag-page {
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
-.post-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+/* Intro quote section */
+#intro {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 40px;
 }
 
-.post-list > li {
+.quote {
   margin-bottom: 30px;
 }
 
-.post-meta {
+.quote p {
+  margin-bottom: 5px;
+}
+
+/* Tags navigation */
+#tags {
+  margin-bottom: 30px;
+}
+
+#blog ul#tag-nav,
+.tag-page ul#tag-nav {
+  padding: 0 0 30px 0;
+  line-height: 1.3em;
+  list-style-type: none;
+}
+
+#blog ul#tag-nav li,
+.tag-page ul#tag-nav li {
+  display: inline;
+  padding-right: 10px;
+}
+
+#blog ul#tag-nav li a,
+.tag-page ul#tag-nav li a {
   font-size: 14px;
-  color: #828282;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#blog ul#tag-nav li a:hover,
+.tag-page ul#tag-nav li a:hover {
+  text-decoration: underline;
+}
+
+/* Tag page title */
+.tag-page h2 {
+  font-size: 26px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+  padding-top: 1em;
+}
+
+/* Posts */
+.post-row {
   margin-bottom: 0;
 }
 
-.post-link {
-  display: block;
-  font-size: 24px;
-  margin-top: 5px;
+.post-title {
+  font-size: 2rem; 
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.post-list h3 {
-  margin: 0;
-  padding: 0;
+.post-title a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.post-subtitle {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 1.5em;
+}
+
+.post-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+  color: var(--text-color);
 }

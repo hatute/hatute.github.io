@@ -1,0 +1,37 @@
+/* Homepage specific styles */
+body.home {
+  margin-top: 119px;
+}
+
+@media (max-width: 700px) {
+  body.home {
+    margin-top: 119px;
+  }
+}
+
+/* Pages with navigation */
+body.page {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Page content wrapper */
+.page-content {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+/* Publications page */
+#papers {
+  margin-top: 83px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+  body.page {
+    margin-top: 0;
+  }
+  .page-content {
+    margin-top: 80px;
+  }
+}

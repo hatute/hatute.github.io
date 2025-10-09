@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Posts
 ---
 
-<div id="blog" class="wrap">
+<div class="tag-page wrap">
   {% include blog-quote.html %}
 
   <div id="tags">
@@ -17,18 +16,22 @@ title: Posts
     </ul>
   </div>
 
+  <h2>{{ page.tag }}</h2>
+
   <div id="posts" class="section">
     {% for post in site.posts %}
-      <div class="post-row">
-        <p class="post-title">
-            <a class="post-link" href="{{ post.url | relative_url }}">
+      {% if post.tags contains page.tag %}
+        <div class="post-row">
+          <p class="post-title">
+            <a href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
-        </p>
-        <p class="post-date">{{ post.date | date:  "%d %B %Y" }}</p>
-      </div>
-      {% if post.description %}
-      <p class="post-subtitle">{{ post.description }}</p>
+          </p>
+          <p class="post-date">{{ post.date | date: "%d %B %Y" }}</p>
+        </div>
+        {% if post.description %}
+        <p class="post-subtitle">{{ post.description }}</p>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>

@@ -1,24 +1,22 @@
-.sticky {
-  background-color: var(--background-color);
-  height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  transition: background-color 0.2s ease;
-  display: flex;
-  align-items: center;
+/* Navigation for non-homepage pages */
+.nav {
+  margin: 15px 0 15px 0;
 }
 
-.sticky nav {
-  max-width: 850px;
-  width: 100%;
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.wrap {
+  max-width: 700px;
   margin: 0 auto;
-  padding: 0 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .center {
@@ -61,55 +59,62 @@ div.columns:nth-of-type(even) {
   text-align: left;
 }
 
-/* grid */
-.home-grid {
-  display: grid;
-  // grid-template-areas: "image desc desc";
-  grid-template-areas: "image desc";
-  grid-template-columns: 1fr 1fr;
+/* Homepage links */
+.home-links {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 20px 0;
+  line-height: 1.25em;
 }
 
-.grid-img {
-  grid-area: image;
-  margin: auto;
-  margin-top: 5%;
+.home-links li {
+  font-family: -apple-system, Helvetica, arial, sans-serif;
+  margin: 0;
+  margin-right: 25px;
+  padding: 0;
+  padding-bottom: 5px;
 }
 
-.grid-img img {
-  width: 275px;
+.home-links li a:hover {
+  text-decoration: none;
 }
 
-.grid-desc {
-  grid-area: desc;
-  display: flex; /* Add this */
-  flex-direction: column; /* Add this */
-  justify-content: center; /* Add this */
-  margin: auto 0;
+.home-links li.contact {
+  font-family: courier, monospace;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
 }
 
-.grid-desc span {
+/* Publications */
+.paper-row {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.paper-title {
+  margin: 0;
+  font-size: 15px;
+}
+
+.paper-authors {
+  margin: 0;
+  font-size: 15px;
+}
+
+.paper-venue {
+  margin: 0;
+  font-size: 15px;
+}
+
+.pub-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: inline;
-  white-space: nowrap;
 }
 
-.grid-link {
-  grid-area: links;
-}
-
-@media (max-width: 768px) {
-  .home-grid {
-    grid-template-areas: "image desc";
-    grid-template-columns: 1fr 1fr; /* Split into two equal columns */
-    gap: 20px;
-    padding: 0 20px;
-  }
-
-  .grid-img img {
-    width: 100%;
-    max-width: none; /* Remove max-width restriction */
-  }
-
-  .grid-desc {
-    text-align: left; /* Align text to the left */
-  }
+.pub-links li {
+  display: inline;
+  padding-right: 10px;
 }

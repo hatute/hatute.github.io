@@ -59,61 +59,15 @@
     <link rel="stylesheet" href="{{ "/assets/css/galleries.css" | prepend:
     site.baseurl }}">
   </head>
-  <body>
-    <div class="sticky">
-      <nav>
-        <div class="nav-left">
-          <a href="/">~</a> / {% if page.url != "/" %} {% if page.collection ==
-          "posts" %}
-          <!-- Custom breadcrumb for posts -->
-          <a href="/posts">Posts</a> / {{ page.title | capitalize }} {% elsif
-          page.layout == "gallery" %}
-          <!-- Custom breadcrumb for gallery pages -->
-          <a href="/gallery">Gallery</a> / {{ page.title | capitalize }} {% else
-          %}
-          <!-- Use the page title for standalone pages -->
-          {{ page.title | capitalize }} {% endif %} {% endif %}
-        </div>
-        <button id="theme-toggle" type="button">
-          <span class="d-block-light d-none"
-            ><img
-              class="icon"
-              alt="moon"
-              src="{{ '/assets/img/moon.png' | relative_url }}"
-          /></span>
-          <span class="d-block-dark d-none"
-            ><img
-              class="icon"
-              alt="sun"
-              src="{{ '/assets/img/sun.png' | relative_url }}"
-          /></span>
-        </button>
-      </nav>
+  <body class="{% if page.url == '/' %}home{% else %}page{% endif %}">
+    {% if page.url != "/" %}
+    <div class="nav">
+      <ul class="wrap">
+        <li><a href="/">Home</a></li>
+      </ul>
     </div>
+    {% endif %}
 
     {{ content }}
-
-    <footer>
-      <div class="footer-content">
-        <span class="pull-left"
-          >Credit: (<a href="https://evesdropper.dev/">Evelyn Koo</a>)</span
-        >
-        <div class="pull-right">
-          <span
-            title="Last Updated {{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}"
-            >{{ site.time | date: '%Y' }} &copy; S. Mai (<a href="/contact"
-              >Contact</a
-            >)</span
-          >
-          &nbsp;
-          <a href="{{ '/feed.xml' | relative_url }}"
-            ><img
-              class="icon"
-              src="{{ '/assets/img/rss.png' | relative_url }}"
-              alt="rss"
-          /></a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

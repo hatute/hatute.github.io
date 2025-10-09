@@ -1,15 +1,16 @@
-nav {
-  font-family: "Inter", sans-serif;
-  font-size: 1.15rem;
-  color: var(--text-color);
-  z-index: 1000;
+.nav {
+  font-family: -apple-system, Helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
 }
 
-nav a {
-  color: var(--link-color);
+.nav a {
+  color: var(--muted-text-color);
   text-decoration: none;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.nav a:hover {
+  font-weight: bold;
+  color: var(--muted-text-color);
+  text-decoration: none;
 }
