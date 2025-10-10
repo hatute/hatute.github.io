@@ -2,6 +2,7 @@
 layout: post
 title: "Mobile Suit Gundam: Hathaway"
 date: 2022-05-17 21:49 -0400
+description: "War and peace are eternal themes of humanity, a reflection on the preciousness of peace through the lens of conflict."
 tags: ["more"]
 ---
 

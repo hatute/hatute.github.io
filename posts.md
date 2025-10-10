@@ -8,6 +8,7 @@ title: Posts
 
   <div id="tags">
     <ul id="tag-nav">
+      <span>Tags:</span>
       {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
       {% for tag in all_tags %}
         {% if tag != "" %}
@@ -26,10 +27,10 @@ title: Posts
             </a>
         </p>
         <p class="post-date">{{ post.date | date:  "%d %B %Y" }}</p>
+        {% if post.description %}
+        <p class="post-subtitle">{{ post.description }}</p>
+        {% endif %}
       </div>
-      {% if post.description %}
-      <p class="post-subtitle">{{ post.description }}</p>
-      {% endif %}
     {% endfor %}
   </div>
 </div>
