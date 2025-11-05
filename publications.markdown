@@ -4,13 +4,23 @@ title: Publications
 ---
 
 <div id="papers">
-<h1>Select publications</h1>
+<h1>Selected publications</h1>
+
+<div class="paper-row">
+<p class="paper-title"><strong>Longest Sustained Cortical Activity Duration in Temporal Bisection Task Aligns with Geometric Mean for Log-Spaced Probes</strong></p>
+<p class="paper-authors">Siwei Mai, Jiazhen Hong, Tracey Shors, Laleh Najafizadeh</p>
+<p class="paper-venue"><em>Spotlight Poster, IEEE EMBS the Conference on Neural Engineering (NER)</em>, 2025.</p>
+<!-- <ul class="pub-links">
+<li><a href="https://github.com/Integrated-Systems-NeuroImaging-Lab/ISBI2025-ADASSO" target="_blank">Code</a></li>
+</ul> -->
+</div>
 
 <div class="paper-row">
 <p class="paper-title"><strong>Uncovering Spatiotemporal Differences in Cortical Activity Corresponding to Two Tasks Using Data-Driven ADASSO Algorithm</strong></p>
 <p class="paper-authors">Siwei Mai, Ali E. Haddad, Laleh Najafizadeh</p>
 <p class="paper-venue"><em>IEEE International Symposium on Biomedical Imaging (ISBI)</em>, 2025.</p>
 <ul class="pub-links">
+<li><a href="https://ieeexplore.ieee.org/document/10980883" target="_blank">Paper</a></li>
 <li><a href="https://github.com/Integrated-Systems-NeuroImaging-Lab/ISBI2025-ADASSO" target="_blank">Code</a></li>
 </ul>
 </div>
