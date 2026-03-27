@@ -1,16 +1,19 @@
 .nav {
   font-family: -apple-system, Helvetica, arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 24px;
 }
 
 .nav a {
   color: var(--muted-text-color);
   text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
 }
 
 .nav a:hover {
-  font-weight: bold;
+  font-weight: normal;
   color: var(--muted-text-color);
   text-decoration: none;
+  border-bottom-color: var(--muted-text-color);
 }

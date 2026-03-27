@@ -1,11 +1,13 @@
 /* Homepage specific styles */
 body.home {
   margin-top: 119px;
+  min-height: calc(100vh - 119px);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   body.home {
-    margin-top: 119px;
+    margin-top: 60px;
+    min-height: calc(100vh - 60px);
   }
 }
 

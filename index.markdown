@@ -4,8 +4,9 @@ title: Home
 ---
 
 # Hello world
+
 You've found the site of the pilot of RX-105 Ξ Gundam, a "Firedrakes" warrior in the Chapter "Salamanders",
-**& a below-average PhD student @ Rutgers ECE.**
+and **a below-average PhD student @ Rutgers ECE.**
 
 <ul class="home-links">
     <li><a href="/about">About</a></li>
