@@ -1,6 +1,8 @@
+@use "variables" as *;
+
 /* Navigation for non-homepage pages */
 .nav {
-  margin: 15px 0;
+  margin: $nav-margin 0;
 }
 
 .nav ul {

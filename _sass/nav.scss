@@ -1,7 +1,9 @@
+@use "variables" as *;
+
 .nav {
   font-family: -apple-system, Helvetica, arial, sans-serif;
   font-size: 13px;
-  line-height: 24px;
+  line-height: $nav-line-height;
 }
 
 .nav a {

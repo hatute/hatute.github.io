@@ -1,3 +1,14 @@
+// Layout spacing — single source of truth
+// Nav height = line-height + top margin + bottom margin
+$nav-line-height: 24px;
+$nav-margin: 15px;
+$nav-height: $nav-line-height + $nav-margin * 2; // 54px
+
+$homepage-top: 119px;
+$homepage-top-mobile: 60px;
+$content-top: $homepage-top - $nav-height;        // 65px — aligns subpage content with homepage
+$content-top-mobile: 10px;                         // ≈ $homepage-top-mobile - $nav-height, with min breathing room
+
 /* Light theme only */
 :root {
   --background-color: #ffffff

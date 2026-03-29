@@ -1,13 +1,15 @@
+@use "variables" as *;
+
 /* Homepage specific styles */
 body.home {
-  margin-top: 119px;
-  min-height: calc(100vh - 119px);
+  margin-top: $homepage-top;
+  min-height: calc(100vh - #{$homepage-top});
 }
 
 @media (max-width: 480px) {
   body.home {
-    margin-top: 60px;
-    min-height: calc(100vh - 60px);
+    margin-top: $homepage-top-mobile;
+    min-height: calc(100vh - #{$homepage-top-mobile});
   }
 }
 
@@ -19,13 +21,13 @@ body.page {
 
 /* Page content wrapper */
 .page-content {
-  margin-top: 80px;
+  margin-top: $content-top;
   margin-bottom: 100px;
 }
 
 /* Publications page */
 #papers {
-  margin-top: 83px;
+  margin-top: $content-top;
   margin-bottom: 100px;
 }
 
@@ -34,6 +36,12 @@ body.page {
     margin-top: 0;
   }
   .page-content {
-    margin-top: 80px;
+    margin-top: $content-top;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-content {
+    margin-top: $content-top-mobile;
   }
 }

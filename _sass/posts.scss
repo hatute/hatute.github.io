@@ -1,7 +1,9 @@
+@use "variables" as *;
+
 /* Blog/Posts page */
 #blog,
 .tag-page {
-  margin-top: 80px;
+  margin-top: $content-top;
   margin-bottom: 100px;
 }
 
